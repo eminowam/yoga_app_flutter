@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.light,
-          fontFamily: "Playfair",
+          fontFamily: 'Playfair',
           backgroundColor: AppColor.mainScreenColor),
       home: HomePage(),
     );

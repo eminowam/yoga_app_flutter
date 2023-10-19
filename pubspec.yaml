@@ -63,10 +63,10 @@ flutter:
     - assets/
     - assets/icons/
 
-#  fonts:
-#    - family: Playfair
-#      fonts:
-#        - asset: fonts/montserrat/PlayfairDisplay-Bold.ttf
-#        - asset: fonts/montserrat/PlayfairDisplay-Medium.ttf
-#        - asset: fonts/montserrat/PlayfairDisplay-Regular.ttf
+  fonts:
+    - family: Playfair
+      fonts:
+        - asset: fonts/playfair/PlayfairDisplay-Bold.ttf
+        - asset: fonts/playfair/PlayfairDisplay-Medium.ttf
+        - asset: fonts/playfair/PlayfairDisplay-Regular.ttf
 
