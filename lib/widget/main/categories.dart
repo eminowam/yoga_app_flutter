@@ -61,7 +61,9 @@ class _Categories extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10)),
                   backgroundColor: Colors.white),
-              onPressed: () {},
+              onPressed: () {
+
+              },
               child: Text(text,
                 style: TextStyle(
                     color: AppColor.mainTextColor,fontWeight: FontWeight.w400
