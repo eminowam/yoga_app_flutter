@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
             children: [
               TextSearch(),
               SizedBox(height: 32,),
-              CategoriesRow(),
+              CategoriesState(),
               SizedBox(height: 20,),
               YogaCards()
             ],

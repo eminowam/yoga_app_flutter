@@ -1,5 +1,6 @@
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../color/color.dart';
 
@@ -8,8 +9,15 @@ class ButtonModel{
 
   ButtonModel(this.text);
 }
-class CategoriesRow extends StatelessWidget {
-  CategoriesRow({super.key});
+class CategoriesState extends StatefulWidget {
+  CategoriesState({super.key});
+
+  @override
+  State<CategoriesState> createState() => _CategoriesStateState();
+}
+
+class _CategoriesStateState extends State<CategoriesState> {
+  Color buttonColor=AppColor.categoriesButtonColor;
 
   var button = ButtonModel("test");
 
@@ -62,7 +70,6 @@ class _Categories extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10)),
                   backgroundColor: Colors.white),
               onPressed: () {
-
               },
               child: Text(text,
                 style: TextStyle(
@@ -71,3 +78,4 @@ class _Categories extends StatelessWidget {
     );
   }
 }
+
