@@ -11,22 +11,21 @@ class DetailsYoga extends StatelessWidget {
       child: Container(
         child: Column(
           children: [
-            Image(image: AssetImage('assets/big_yoga.png')),
+            const Image(image: AssetImage('assets/big_yoga.png')),
             Padding(
-              padding: const EdgeInsets.only(top: 23,bottom: 20),
+              padding: const EdgeInsets.only(top: 23,),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
-                  borderRadius: BorderRadius.circular(35)
+                  borderRadius: BorderRadius.only(topLeft: Radius.circular(35))
                 ),
                 alignment: Alignment.topLeft,
                 child: Padding(
                   padding: const EdgeInsets.only(top: 23,right: 23,left: 23,bottom: 23),
                   child: Column(
-
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("Full Body Stretch",style: TextStyle(
+                      const Text("Full Body Stretch",style: TextStyle(
                         fontWeight: FontWeight.w500,fontSize: 24
                       ),),
                       SizedBox(height: 6,),

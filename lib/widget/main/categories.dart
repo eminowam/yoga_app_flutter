@@ -39,7 +39,7 @@ class _CategoriesStateState extends State<CategoriesState> {
         SizedBox(height: 16,),
         Row(
           children: [
-            ...titles.map((e) => _Categories(
+            ...titles.map((e) => _CategoriesButton(
               text: e.text,
             )),
           ],
@@ -50,8 +50,8 @@ class _CategoriesStateState extends State<CategoriesState> {
 }
 
 
-class _Categories extends StatelessWidget {
-  const _Categories({
+class _CategoriesButton extends StatelessWidget {
+  const _CategoriesButton({
     Key? key,
     required this.text,
   }) : super(key: key);
@@ -60,7 +60,7 @@ class _Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 4,right: 8),
+      margin: const  EdgeInsets.only(left: 4,right: 8),
       child: SizedBox(
           width: 100, // <-- Your width
           height: 40,
