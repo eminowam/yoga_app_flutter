@@ -4,7 +4,7 @@ import 'package:yoga_ui/screen/details/detail_page.dart';
 
 import '../../color/color.dart';
 import '../../widget/main/card.dart';
-import '../../widget/main/categories.dart';
+import '../../widget/main/category/categories.dart';
 import '../../widget/main/text_search.dart';
 
 class HomePage extends StatelessWidget {
@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
       body:  SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Padding(
-          padding: const EdgeInsets.only(right: 25,left: 25,top: 70),
+          padding: const EdgeInsets.only(right: 15,left: 15,top: 70),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

@@ -29,13 +29,13 @@ class DetailsYoga extends StatelessWidget {
                         fontWeight: FontWeight.w500,fontSize: 24
                       ),),
                       SizedBox(height: 6,),
-                      Text("15 min",
+                     const  Text("15 min",
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w400
                       ),),
                       SizedBox(height: 24,),
-                      Text("Do you love yoga, but you’re not in the mood to break"
+                      const Text("Do you love yoga, but you’re not in the mood to break"
                         "a sweat every time you sit at the mat? Maybe you "
                         "just want to meditate and stretch, to contemplate"
                         "your day and wish your cares away for a moment."
