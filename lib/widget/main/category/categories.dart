@@ -35,7 +35,7 @@ class _CategoriesStateState extends State<CategoriesState> {
         const Text(
           "Browser Category",
           style:TextStyle(fontSize: 18,
-              fontWeight: FontWeight.w400) ,),
+              fontWeight: FontWeight.w500) ,),
         SizedBox(height: 16,),
         Row(
           children: [

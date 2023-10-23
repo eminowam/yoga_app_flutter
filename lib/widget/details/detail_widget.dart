@@ -13,15 +13,15 @@ class DetailsYoga extends StatelessWidget {
           children: [
             const Image(image: AssetImage('assets/big_yoga.png')),
             Padding(
-              padding: const EdgeInsets.only(top: 23,),
+              padding: const EdgeInsets.only(top: 20),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
-                  borderRadius: BorderRadius.only(topLeft: Radius.circular(35))
+                  borderRadius: BorderRadius.only(topLeft: Radius.circular(30),topRight: Radius.circular(30))
                 ),
                 alignment: Alignment.topLeft,
                 child: Padding(
-                  padding: const EdgeInsets.only(top: 23,right: 23,left: 23,bottom: 23),
+                  padding: const EdgeInsets.only(top: 23,right: 23,left: 23,bottom: 43),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [

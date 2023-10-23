@@ -23,6 +23,10 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: AppColor.mainScreenColor,
         elevation: 3,
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        selectedItemColor: Colors.black,
+        unselectedItemColor: Colors.grey,
         currentIndex: _currentIndex,
         items: [
           BottomNavigationBarItem(
@@ -59,7 +63,7 @@ class _HomePageState extends State<HomePage> {
               ),
               const Text(
                 "Recommended Courses",
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w400),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
               ),
               const SizedBox(
                 height: 16,

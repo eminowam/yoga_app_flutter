@@ -12,7 +12,7 @@ class TextSearch extends StatelessWidget {
         children: [
           const Text(
             "Your Practice",
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),
           ),
           const SizedBox(
             height: 32,

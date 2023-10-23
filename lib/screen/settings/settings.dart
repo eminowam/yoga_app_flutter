@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yoga_ui/color/color.dart';
 
-import '../../widget/settings/categories/category_settings.dart';
+import '../../widget/settings/category_settings.dart';
 import '../../widget/settings/settings_column.dart';
 import '../../widget/settings/settings_row.dart';
 
