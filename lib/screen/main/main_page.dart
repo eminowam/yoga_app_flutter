@@ -67,35 +67,42 @@ class _HomePageState extends State<HomePage> {
               YogaCards(
                 title: "Yoga Pilates",
                 subTitle: "5 lessons",
+                  image: 'assets/yoga.png',
                 onPressed: () {
                   Navigator.push(context,
                       CupertinoPageRoute(builder: (_) => DetailsScreen()));
                 },
               ),
+              SizedBox(height: 5,),
               YogaCards(
                 title: "Full Body Stretch",
                 subTitle: "5 lessons",
+                image: 'assets/yoga2.png',
                 onPressed: () {
                   Navigator.push(context,
                       CupertinoPageRoute(builder: (_) => DetailsScreen()));
                 },
               ),
+              SizedBox(height: 5,),
               YogaCards(
                 title: "Gentle Flow",
                 subTitle: "5 lessons",
+                image: 'assets/yoga3.png',
                 onPressed: () {
                   Navigator.push(context,
                       CupertinoPageRoute(builder: (_) => DetailsScreen()));
                 },
               ),
+              SizedBox(height: 5,),
               YogaCards(
-                title: "Body Catch",
+                title: "Gentle Flow",
                 subTitle: "5 lessons",
+                image: 'assets/yoga.png',
                 onPressed: () {
                   Navigator.push(context,
                       CupertinoPageRoute(builder: (_) => DetailsScreen()));
                 },
-              )
+              ),
             ],
           ),
         ),

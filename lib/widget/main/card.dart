@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:yoga_ui/screen/details/detail_page.dart';
 
 class YogaCards extends StatelessWidget {
-  const YogaCards({super.key, required this.title, required this.subTitle, required this.onPressed});
+  const YogaCards({super.key, required this.title, required this.subTitle, required this.onPressed, required this.image});
 final String title;
 final String subTitle;
+final String image;
 final VoidCallback onPressed;
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,7 @@ final VoidCallback onPressed;
             mainAxisAlignment: MainAxisAlignment.center,
         children: [
         ListTile(
-        leading: const Image(image: AssetImage('assets/yoga.png'),),
+        leading: Image(image: AssetImage(image),),
         title:  Text(title,
         style: const TextStyle(fontSize: 16,
         fontWeight: FontWeight.w500),),
