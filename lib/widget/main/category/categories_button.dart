@@ -24,7 +24,6 @@ class CategoriesButton extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10)),
                   backgroundColor: Colors.white),
               onPressed: () {
-                Navigator.push(context, CupertinoPageRoute(builder: (_) => SettingsScreen()));
               },
               child: Text(text,
                 style: TextStyle(
