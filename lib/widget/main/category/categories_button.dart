@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:yoga_ui/screen/settings/settings.dart';
 
 import '../../../color/color.dart';
 
@@ -22,6 +24,7 @@ class CategoriesButton extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10)),
                   backgroundColor: Colors.white),
               onPressed: () {
+                Navigator.push(context, CupertinoPageRoute(builder: (_) => SettingsScreen()));
               },
               child: Text(text,
                 style: TextStyle(
