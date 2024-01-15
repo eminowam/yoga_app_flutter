@@ -15,7 +15,7 @@ class DetailsYoga extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 20),
               child: Container(
-                decoration: BoxDecoration(
+                decoration:const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(topLeft: Radius.circular(30),topRight: Radius.circular(30))
                 ),
@@ -28,13 +28,13 @@ class DetailsYoga extends StatelessWidget {
                       const Text("Full Body Stretch",style: TextStyle(
                         fontWeight: FontWeight.w500,fontSize: 24
                       ),),
-                      SizedBox(height: 6,),
+                      const SizedBox(height: 6,),
                      const  Text("15 min",
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w400
                       ),),
-                      SizedBox(height: 24,),
+                      const SizedBox(height: 24,),
                       const Text("Do you love yoga, but you’re not in the mood to break"
                         "a sweat every time you sit at the mat? Maybe you "
                         "just want to meditate and stretch, to contemplate"
@@ -43,7 +43,7 @@ class DetailsYoga extends StatelessWidget {
                         "and free yoga videos to people around the globe.",
                       style: TextStyle(fontSize: 14,fontWeight: FontWeight.w400,
                       height: 1.55),),
-                      SizedBox(height: 24,),
+                      const  SizedBox(height: 24,),
                       SizedBox(
                           width: 350, // <-- Your width
                           height: 48,
@@ -55,7 +55,7 @@ class DetailsYoga extends StatelessWidget {
                                   backgroundColor:
                                   AppColor.categoriesButtonColor),
                               onPressed: () {},
-                              child: Text("Start"))),
+                              child:const Text("Start"))),
                     ],
                   ),
                 ),

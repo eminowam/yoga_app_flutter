@@ -15,7 +15,7 @@ class SettingsScreen extends StatelessWidget {
       body: const SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Padding(
-          padding: const EdgeInsets.only(right: 15, left: 15, top: 70),
+          padding:  EdgeInsets.only(right: 15, left: 15, top: 70),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

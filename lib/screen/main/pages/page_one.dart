@@ -17,12 +17,12 @@ class PageOne extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            TextSearch(),
-            SizedBox(
+            const TextSearch(),
+            const SizedBox(
               height: 32,
             ),
             CategoriesState(),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             const Text(
@@ -41,7 +41,9 @@ class PageOne extends StatelessWidget {
                     CupertinoPageRoute(builder: (_) => DetailsScreen()));
               },
             ),
-            SizedBox(height: 5,),
+            const SizedBox(
+              height: 5,
+            ),
             YogaCards(
               title: "Full Body Stretch",
               subTitle: "5 lessons",
@@ -51,7 +53,9 @@ class PageOne extends StatelessWidget {
                     CupertinoPageRoute(builder: (_) => DetailsScreen()));
               },
             ),
-            SizedBox(height: 5,),
+            const SizedBox(
+              height: 5,
+            ),
             YogaCards(
               title: "Gentle Flow",
               subTitle: "5 lessons",
@@ -61,7 +65,9 @@ class PageOne extends StatelessWidget {
                     CupertinoPageRoute(builder: (_) => DetailsScreen()));
               },
             ),
-            SizedBox(height: 5,),
+            const SizedBox(
+              height: 5,
+            ),
             YogaCards(
               title: "Gentle Flow",
               subTitle: "5 lessons",

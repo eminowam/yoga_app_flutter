@@ -1,13 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:yoga_ui/screen/details/detail_page.dart';
 import 'package:yoga_ui/screen/main/pages/page_one.dart';
 import 'package:yoga_ui/screen/settings/settings.dart';
 
 import '../../color/color.dart';
-import '../../widget/main/card.dart';
-import '../../widget/main/category/categories.dart';
-import '../../widget/main/text_search.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -22,16 +18,16 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: AppColor.mainScreenColor,
+        backgroundColor: Theme.of(context).colorScheme.background,
         bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: AppColor.mainScreenColor,
-          elevation: 3,
+          backgroundColor: Theme.of(context).colorScheme.background,
+          elevation: 4,
           showSelectedLabels: false,
           showUnselectedLabels: false,
           selectedItemColor: Colors.black,
           unselectedItemColor: Colors.grey,
           currentIndex: _currentIndex,
-          items: [
+          items:const [
             BottomNavigationBarItem(
                 icon: Icon(Icons.home),
                 // backgroundColor: Colors.black,
@@ -55,7 +51,7 @@ class _HomePageState extends State<HomePage> {
               return SettingsScreen();
             }
 
-            return SizedBox();
+            return const SizedBox();
           },
         ));
   }

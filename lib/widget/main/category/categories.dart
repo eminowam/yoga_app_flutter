@@ -32,11 +32,11 @@ class _CategoriesStateState extends State<CategoriesState> {
     return  Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+         Text(
           "Browser Category",
-          style:TextStyle(fontSize: 18,
-              fontWeight: FontWeight.w500) ,),
-        SizedBox(height: 16,),
+          style:Theme.of(context).textTheme.headlineMedium
+        ),
+        const SizedBox(height: 16,),
         Row(
           children: [
             ...titles.map((e) => CategoriesButton(

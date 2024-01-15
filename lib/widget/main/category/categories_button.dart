@@ -14,22 +14,21 @@ class CategoriesButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const  EdgeInsets.only(left: 4,right: 8),
+      margin: const EdgeInsets.only(left: 4, right: 8),
       child: SizedBox(
           width: 100, // <-- Your width
           height: 40,
           child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10)),
-                  backgroundColor: Colors.white),
-              onPressed: () {
-              },
-              child: Text(text,
-                style: TextStyle(
-                    color: AppColor.mainTextColor,fontWeight: FontWeight.w400
-                ),))),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10)),
+                backgroundColor: Theme.of(context).colorScheme.primary,
+              ),
+              onPressed: () {},
+              child: Text(
+                text,
+                style: Theme.of(context).textTheme.labelLarge
+              ))),
     );
   }
 }
-
